@@ -1,0 +1,49 @@
+TEST CASE 1: Valid A Grade
+Input:
+Student Name: Priya
+Marks: 85
+Expected Output: Grade B, Message: Very Good! Keep it up! 👍
+
+TEST CASE 2: A Grade (90-100)
+Input: Rohan, 95
+Expected Output: Grade A, Message: Excellent! You're a star! 🌟
+
+TEST CASE 3: B Grade (80-89)
+Input: Neha, 82
+Expected Output: Grade B, Message: Very Good! Keep it up! 👍
+
+TEST CASE 4: C Grade (70-79)
+Input: Amit, 75
+Expected Output: Grade C, Message: Good! You can do even better! 💪
+
+TEST CASE 5: D Grade (60-69)
+Input: Sonal, 65
+Expected Output: Grade D, Message: Fair! Need more practice! 📚
+
+TEST CASE 6: F Grade (0-59)
+Input: Raj, 45
+Expected Output: Grade F, Message: Don't give up! Try harder next time! 🎯
+
+TEST CASE 7: Invalid Input (Above 100)
+Input: John, 105
+Expected Output: Error message, ask again
+
+TEST CASE 8: Invalid Input (Negative)
+Input: Sarah, -10
+Expected Output: Error message, ask again
+
+TEST CASE 9: Invalid Input (Non-numeric)
+Input: Mike, abc
+Expected Output: Error message, ask again
+
+TEST CASE 10: Boundary Testing
+Input: 0 → Grade F
+Input: 59 → Grade F
+Input: 60 → Grade D
+Input: 69 → Grade D
+Input: 70 → Grade C
+Input: 79 → Grade C
+Input: 80 → Grade B
+Input: 89 → Grade B
+Input: 90 → Grade A
+Input: 100 → Grade A
